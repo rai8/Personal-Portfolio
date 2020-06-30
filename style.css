@@ -1,0 +1,270 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: whitesmoke;
+}
+nav{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height:60px;
+    background-color: teal;
+    box-shadow: 2px 2px 12px #fff;
+    padding: 0 5%;
+}
+nav ul{
+    display: flex;
+}
+nav ul li a{
+    list-style-type: none;
+    text-decoration: none;
+    padding-left: 15px;
+    font-size: 20px;
+    font-weight: 500;
+    color: white;
+}
+
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.logo{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+    font-size: 30px;;
+}
+.text-container{
+    position: absolute;
+    left: 10%;
+    top: 40%;
+    transform: translate(-10%, -40%);
+    color: teal;
+    font-family: 'Lobster', cursive;
+}
+.text-container p:nth-child(1){
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    font-size: 25px;;
+
+}
+.text-container p:nth-child(2){
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+    letter-spacing: 1px;;
+
+}
+.text-container p:nth-child(3){
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    letter-spacing: 1px;
+    line-height: 30px;
+   
+
+}
+.text-container p{
+    line-height: 0px;
+    margin: 45px 0 25px;
+    
+}
+.image{
+    height: 560px;
+    position: absolute;
+    bottom: 0px;
+    left: 85%;
+    transform: translateX(-85%);
+
+}
+.about{
+    width: 80%;
+    height: 300px;
+    background-color: whitesmoke;
+    border-radius: 20px;
+    box-shadow: 2px 2px 12px gray;
+    
+    margin: 30% auto 20px auto;
+    position: relative;
+}
+.about-text{
+    padding-top: 5px;
+    padding-left: 10px;
+    font-size: 18px;
+   
+
+}
+.about-text h1{
+    color: teal
+}
+.skillset{
+    
+  
+    height: 510px;
+    background-color: whitesmoke;
+    display: flex;
+    margin-left: 15px;
+    margin-right: 5px;
+    padding-left: 10px;
+    padding-right: 5px;
+    justify-content: space-evenly;
+}
+
+.skill-text{
+    margin-left: 5px;
+    padding-left: 5px;
+    width: 30%;
+    border-radius: 5%;
+    padding-right: 10px;
+    box-shadow: 3px 3px 2px gray;
+    height: 500px;
+    font-size: 18px;
+
+}
+.skill-text h1{
+    text-align: center;
+    color: teal;
+    
+}
+
+.skills-img{
+    border-radius: 4rem;
+    text-align: center;
+    width: 300px;
+    height: 200px;
+    padding-left: 15px;
+}
+
+.img-div{
+ text-align: center;
+}
+.contact-form{
+    text-align: center;
+    background-color: teal;
+}
+form{
+    display: block;
+    margin-bottom: 3px;
+  padding-top: 20px;
+}
+form p {
+font-size: 16px;
+font-family: inherit;
+
+}
+#email{
+    margin-bottom: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 3px;
+    font-size: 14px;
+    box-shadow: 1px yellowgreen;
+}
+#submit{
+    color: royalblue;
+    border-radius: 7px;
+    padding-top: 8px;
+    padding-bottom: 10px;
+    margin-top: 5px;
+    background-color: yellowgreen;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+.portfolio{
+    height: 500px;
+    background-color: lightsteelblue;
+    padding-top: 0px;
+    box-sizing: border-box;
+
+}
+.portfolio-head{
+    text-align: center;
+    font-weight: 600;
+    font-size: 24px;
+    
+}
+.portfolio p{
+    padding-left: 4px;
+}
+.portfolio-img{
+    width: 350px;
+    height: 400px;
+    box-shadow: 2px 2px 10px grey;
+}
+.portfolio-img h1{
+    padding-top: 5px;;
+    font-size: 24px;
+    color: black;
+    text-align: center;
+}
+.portfolio-box{
+    display: flex;
+    justify-content: space-evenly;
+}
+#contacts{
+    text-align: center;
+    background-color: gray;
+    padding-top: 7px;
+  top: 0;
+    padding-bottom: 2px;
+    height: auto;
+}
+.h1-teal{
+    color: teal;
+    font-size: 40px;
+}
+.inquiry-form h1{
+    text-align: center;
+    color: teal;
+}
+
+.form{
+    
+    margin-left: 10px ;
+}
+.social-logo {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+   margin: 0 auto;
+   padding-bottom: 0;
+   font-size: 40px;
+} 
+
+
+.social-logo p{
+    padding-top: 0;
+    font-size: 20px;
+
+}
+
+.social-logo li{
+    list-style-type: none; 
+    display: flex;
+    margin:5px;
+    border-radius: 50%;
+
+}
+
+.social-logo li a {
+    color:black;
+    text-decoration: none;
+    padding:3px;
+}
+.btn-setup{
+   
+   text-align: center;
+   padding: 5px;
+   justify-self: center;
+   margin-left: 30%;
+     
+    
+}
+
+
