@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+
+@media only screen and (max-width: 1020px) and (min-width: 599px){
+
+    *{
+        box-sizing: border-box;
+    }
+    .about{
+        width: 80%;
+    }
+    .skillset{
+        padding: 2% 5% 2% 5%;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .skill-text{
+        flex-grow: 1;
+        margin: 20px;
+    }
+    .skills-img{
+        width: 180px;
+        border-radius: 1.5rem;
+        padding-left: 5px;
+    }
+    .portfolio-box{
+        padding: 2% 5% 2% 5%;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .portfolio-img{
+        flex-grow: 1;
+        margin: 20px;
+    }
+    .portfolio{
+        height: auto;
+    }
+
+}

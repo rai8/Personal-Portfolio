@@ -28,6 +28,21 @@ nav ul li a{
     font-weight: 500;
     color: white;
 }
+header{
+    padding: 2px;
+    height: 100vh !important;
+    background-image: url('img1.jpg') ;
+    background-size: cover;
+    color: white;
+    background-repeat: no-repeat;
+    background-position: center center;
+    position: relative;
+    opacity: 0.7;
+    text-align: center;
+    flex-direction: column;
+    padding-top: 40vh;
+    font-size: 48px;
+}
 
 ul{
     list-style: none;
@@ -45,7 +60,8 @@ a{
     left: 10%;
     top: 40%;
     transform: translate(-10%, -40%);
-    color: teal;
+    color: black;
+    font-weight: 900;
     font-family: 'Lobster', cursive;
 }
 .text-container p:nth-child(1){
@@ -75,28 +91,25 @@ a{
     margin: 45px 0 25px;
     
 }
-.image{
-    height: 560px;
-    position: absolute;
-    bottom: 0px;
-    left: 85%;
-    transform: translateX(-85%);
 
-}
 .about{
+    padding-top: 0;
+    margin-top: 0;
     width: 80%;
-    height: 300px;
+   
     background-color: whitesmoke;
     border-radius: 20px;
     box-shadow: 2px 2px 12px gray;
     
-    margin: 30% auto 20px auto;
+    margin: 4% auto 40px auto;
     position: relative;
 }
 .about-text{
     padding-top: 5px;
     padding-left: 10px;
     font-size: 18px;
+    padding-bottom: 10px;
+    font-family: 'Lobster', cursive;
    
 
 }
@@ -106,7 +119,7 @@ a{
 .skillset{
     
   
-    height: 510px;
+
     background-color: whitesmoke;
     display: flex;
     margin-left: 15px;
@@ -123,13 +136,14 @@ a{
     border-radius: 5%;
     padding-right: 10px;
     box-shadow: 3px 3px 2px gray;
-    height: 500px;
+   /*  height: 500px; */
     font-size: 18px;
 
 }
 .skill-text h1{
     text-align: center;
     color: teal;
+    font-family: 'Indie',cursive;
     
 }
 
@@ -186,8 +200,9 @@ font-family: inherit;
 .portfolio-head{
     text-align: center;
     font-weight: 600;
-    font-size: 24px;
-    
+    font-size: 30px;
+    color: teal;
+    font-family: 'Lobster', cursive;
 }
 .portfolio p{
     padding-left: 4px;
@@ -200,8 +215,8 @@ font-family: inherit;
 .portfolio-img h1{
     padding-top: 5px;;
     font-size: 24px;
-    color: black;
-    text-align: center;
+    color: teal;
+    font-family: 'Indie',cursive;
 }
 .portfolio-box{
     display: flex;
@@ -218,10 +233,12 @@ font-family: inherit;
 .h1-teal{
     color: teal;
     font-size: 40px;
+    font-family: 'Lobster', cursive;
 }
 .inquiry-form h1{
     text-align: center;
     color: teal;
+    font-family: 'Lobster', cursive;
 }
 
 .form{
